@@ -1,0 +1,48 @@
+unit UnitDir;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Mask, Buttons, ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    Bevel1: TBevel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    RadioGroup1: TRadioGroup;
+    BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+    MaskEdit_DataStart: TMaskEdit;
+    MaskEdit_DataEnd: TMaskEdit;
+    MaskEdit_IndexOPS: TMaskEdit;
+    Edit_NameOPS: TEdit;
+    Edit_PathFileIdentif: TEdit;
+    Edit1: TEdit;
+    Button2: TButton;
+    Button1: TButton;
+    Edit2: TEdit;
+    Button3: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+end.

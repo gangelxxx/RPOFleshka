@@ -1,0 +1,100 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = #1069#1082#1089#1087#1086#1088#1090' '#1056#1055#1054'...'
+  ClientHeight = 616
+  ClientWidth = 702
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesktopCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 240
+    Top = 320
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
+  end
+  object Label2: TLabel
+    Left = 240
+    Top = 352
+    Width = 31
+    Height = 13
+    Caption = 'Label2'
+  end
+  object ListBox1: TListBox
+    Left = 8
+    Top = 8
+    Width = 676
+    Height = 600
+    Style = lbOwnerDrawVariable
+    ItemHeight = 13
+    TabOrder = 0
+    OnDrawItem = ListBox1DrawItem
+    OnMeasureItem = ListBox1MeasureItem
+  end
+  object QProgressBar1: TQProgressBar
+    Left = 690
+    Top = 8
+    width = 7
+    height = 600
+    orientation = boVertical
+    barKind = bkCylinder
+    barLook = blGlass
+    roundCorner = True
+    backgroundColor = clWhite
+    barColor = clLime
+    startColor = clLime
+    finalColor = clLime
+    showInactivePos = False
+    invertInactPos = False
+    inactivePosColor = clGray
+    shaped = True
+    shapeColor = 7617536
+    blockSize = 0
+    spaceSize = 0
+    showFullBlock = False
+    maximum = 100
+    position = 0
+    captionAlign = taLeftJustify
+    font.Charset = DEFAULT_CHARSET
+    font.Color = clWindowText
+    font.Height = -11
+    font.Name = 'Tahoma'
+    font.Style = []
+    AutoCaption = False
+    AutoHint = False
+    ShowPosAsPct = False
+  end
+  object Calendar1: TCalendar
+    Left = 8
+    Top = 488
+    Width = 320
+    Height = 120
+    StartOfWeek = 0
+    TabOrder = 2
+    Visible = False
+  end
+  object TimerExportRPO: TTimer
+    Enabled = False
+    Interval = 10
+    OnTimer = TimerExportRPOTimer
+    Left = 656
+    Top = 16
+  end
+  object TimerAppRun: TTimer
+    Interval = 500
+    OnTimer = TimerAppRunTimer
+    Left = 656
+    Top = 48
+  end
+end

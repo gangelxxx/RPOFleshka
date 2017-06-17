@@ -1,0 +1,6 @@
+[AUTORUN]
+UseAutoPlay=1 
+action=RPOFlehka
+ShellExecute=RPOFlehka.exe
+
+

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2007.11.30 18:27:20.578.pas,D:\AngelWork\Мои документы\Borland Studio Projects\Unit1.pas=D:\AngelWork\ProjectDelphi\Flehka\Unit1.pas</Transaction>
+    <Transaction>2007.11.30 18:27:20.593.dfm,D:\AngelWork\Мои документы\Borland Studio Projects\Unit1.dfm=D:\AngelWork\ProjectDelphi\Flehka\Unit1.dfm</Transaction>
+    <Transaction>2007.11.30 18:27:23.359.bdsproj,D:\AngelWork\Мои документы\Borland Studio Projects\Project1.bdsproj=D:\AngelWork\ProjectDelphi\Flehka\Project1.bdsproj</Transaction>
+    <Transaction>2007.12.05 20:55:54.187.bdsproj,D:\AngelWork\ProjectDelphi\Flehka\Project1.bdsproj=D:\AngelWork\ProjectDelphi\Flehka\RPOFlehka.bdsproj</Transaction>
+    <Transaction>2007.12.06 23:25:41.578.pas,D:\AngelWork\ProjectDelphi\Flehka\Unit2.pas=D:\AngelWork\ProjectDelphi\Flehka\UnitCompareFiles.pas</Transaction>
+    <Transaction>2007.12.07 12:58:23.656.pas,D:\AngelWork\ProjectDelphi\Flehka\FTime3.pas=</Transaction>
+    <Transaction>2007.12.07 12:58:23.656.dfm,D:\AngelWork\ProjectDelphi\Flehka\FTime3.dfm=</Transaction>
+    <Transaction>2007.12.07 12:59:04.750.pas,D:\AngelWork\ProjectDelphi\Flehka\FTime3.pas=</Transaction>
+    <Transaction>2007.12.07 12:59:04.750.dfm,D:\AngelWork\ProjectDelphi\Flehka\FTime3.dfm=</Transaction>
+    <Transaction>2007.12.07 14:07:07.843.pas,D:\AngelWork\ProjectDelphi\Flehka\FTime3.pas=</Transaction>
+    <Transaction>2007.12.07 14:07:07.843.dfm,D:\AngelWork\ProjectDelphi\Flehka\FTime3.dfm=</Transaction>
+    <Transaction>2007.12.07 14:07:57.687.pas,D:\AngelWork\ProjectDelphi\Flehka\FTime3.pas=</Transaction>
+    <Transaction>2007.12.07 14:07:57.687.dfm,D:\AngelWork\ProjectDelphi\Flehka\FTime3.dfm=</Transaction>
+    <Transaction>2007.12.07 14:37:10.953.pas,D:\AngelWork\ProjectDelphi\Flehka\FTime3.pas=</Transaction>
+    <Transaction>2007.12.07 14:37:10.953.dfm,D:\AngelWork\ProjectDelphi\Flehka\FTime3.dfm=</Transaction>
+    <Transaction>2007.12.07 17:40:36.250.pas,D:\AngelWork\ProjectDelphi\Flehka\Unit2.pas=D:\AngelWork\ProjectDelphi\Flehka\UnitSpisOPS.pas</Transaction>
+    <Transaction>2007.12.07 17:50:18.593.pas,D:\AngelWork\ProjectDelphi\Flehka\UnitSpisOPS.pas=D:\AngelWork\ProjectDelphi\Flehka\UnitSpisRPO.pas</Transaction>
+    <Transaction>2007.12.07 18:42:08.750.pas,D:\AngelWork\ProjectDelphi\Flehka\Unit1.pas=D:\AngelWork\ProjectDelphi\Flehka\UnitMain.pas</Transaction>
+    <Transaction>2007.12.07 18:42:08.750.dfm,D:\AngelWork\ProjectDelphi\Flehka\Unit1.dfm=D:\AngelWork\ProjectDelphi\Flehka\UnitMain.dfm</Transaction>
+    <Transaction>2007.12.08 06:49:00.468.pas,D:\AngelWork\ProjectDelphi\Flehka\PoiskDeviceIO\JclNTFS.pas=</Transaction>
+    <Transaction>2007.12.09 17:33:39.828.pas,D:\AngelWork\ProjectDelphi\Flehka\JclWin32.pas=</Transaction>
+    <Transaction>2007.12.09 18:26:26.265.pas,D:\AngelWork\ProjectDelphi\Flehka\Unit1.pas=D:\AngelWork\ProjectDelphi\Flehka\UnitEjectUsb.pas</Transaction>
+    <Transaction>2007.12.14 13:23:23.406.pas,D:\AngelWork\ProjectDelphi\Flehka\D2XXUnit.pas=</Transaction>
+    <Transaction>2007.12.15 21:38:09.828.pas,D:\AngelWork\ProjectDelphi\Flehka\Unit1.pas=D:\AngelWork\ProjectDelphi\Flehka\UnitMessageUpdate.pas</Transaction>
+    <Transaction>2007.12.15 21:38:09.828.dfm,D:\AngelWork\ProjectDelphi\Flehka\Unit1.dfm=D:\AngelWork\ProjectDelphi\Flehka\UnitMessageUpdate.dfm</Transaction>
+    <Transaction>2007.12.17 18:05:15.968.pas,D:\AngelWork\ProjectDelphi\Flehka\Unit1.pas=D:\AngelWork\ProjectDelphi\Flehka\UnitMessageOk.pas</Transaction>
+    <Transaction>2007.12.17 18:05:15.968.dfm,D:\AngelWork\ProjectDelphi\Flehka\Unit1.dfm=D:\AngelWork\ProjectDelphi\Flehka\UnitMessageOk.dfm</Transaction>
+    <Transaction>2007.12.19 18:35:21.640.pas,D:\AngelWork\ProjectDelphi\Flehka\UnitWorkingFile.pas=</Transaction>
+    <Transaction>2007.12.20 03:37:35.640.pas,D:\AngelWork\ProjectDelphi\Flehka\UnitMessageOk.pas=D:\AngelWork\ProjectDelphi\Flehka\UnitMessageProgrammer.pas</Transaction>
+    <Transaction>2007.12.20 03:37:35.656.dfm,D:\AngelWork\ProjectDelphi\Flehka\UnitMessageOk.dfm=D:\AngelWork\ProjectDelphi\Flehka\UnitMessageProgrammer.dfm</Transaction>
+    <Transaction>2007.12.20 03:38:16.328.pas,D:\AngelWork\ProjectDelphi\Flehka\UnitMessageOk.pas=</Transaction>
+    <Transaction>2007.12.20 03:38:16.328.dfm,D:\AngelWork\ProjectDelphi\Flehka\UnitMessageOk.dfm=</Transaction>
+    <Transaction>2008.01.09 21:40:49.171.pas,D:\AngelWork\ProjectDelphi\Flehka\Unit1.pas=D:\AngelWork\ProjectDelphi\Flehka\UnitJCL.pas</Transaction>
+    <Transaction>2008.01.09 21:40:49.171.dfm,D:\AngelWork\ProjectDelphi\Flehka\Unit1.dfm=D:\AngelWork\ProjectDelphi\Flehka\UnitJCL.dfm</Transaction>
+    <Transaction>2008.01.11 21:18:08.890.pas,D:\AngelWork\ProjectDelphi\Flehka\UnitJCL.pas=</Transaction>
+    <Transaction>2008.01.11 21:18:08.890.dfm,D:\AngelWork\ProjectDelphi\Flehka\UnitJCL.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

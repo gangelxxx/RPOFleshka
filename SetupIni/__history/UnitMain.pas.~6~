@@ -1,0 +1,229 @@
+unit UnitMain;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, Mask, Buttons, ExtCtrls, IniFiles, UnitDir, ShellAPI, ShlObj;
+
+type
+  TForm1 = class(TForm)
+    Bevel1: TBevel;
+    BtnRedOPS: TBitBtn;
+    BtnRedRegPost: TBitBtn;
+    BtnRedMain: TBitBtn;
+    PanelOPS: TPanel;
+    Button1: TButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    MaskEdit_DataStart: TMaskEdit;
+    Label3: TLabel;
+    MaskEditDataEndOPS: TMaskEdit;
+    MaskEdit_IndexOPS: TMaskEdit;
+    Label5: TLabel;
+    Label6: TLabel;
+    Edit_NameOPS: TEdit;
+    Label4: TLabel;
+    Label8: TLabel;
+    Label7: TLabel;
+    Label10: TLabel;
+    Edit_PathFileIdentif: TEdit;
+    EditPathWinpost: TEdit;
+    BtnAddDir2: TButton;
+    BtnAddDir3: TButton;
+    PanelMain: TPanel;
+    Label14: TLabel;
+    Label15: TLabel;
+    Label16: TLabel;
+    Label17: TLabel;
+    Label18: TLabel;
+    Label19: TLabel;
+    Label20: TLabel;
+    Button5: TButton;
+    MaskEdit3: TMaskEdit;
+    Edit3: TEdit;
+    Edit4: TEdit;
+    Edit5: TEdit;
+    Edit6: TEdit;
+    Button6: TButton;
+    Button7: TButton;
+    Button8: TButton;
+    PanelRegpost: TPanel;
+    Label21: TLabel;
+    Label22: TLabel;
+    Label23: TLabel;
+    Label27: TLabel;
+    Label28: TLabel;
+    Label29: TLabel;
+    MaskEdit4: TMaskEdit;
+    MaskEditDataEndRegpost: TMaskEdit;
+    Edit8: TEdit;
+    Edit9: TEdit;
+    Button10: TButton;
+    Button11: TButton;
+    Edit7: TEdit;
+    Label24: TLabel;
+    PanelStart: TPanel;
+    Label25: TLabel;
+    BtnExit: TBitBtn;
+    BtnOKExit: TButton;
+    OpenDialog1: TOpenDialog;
+    procedure BtnAddDir3Click(Sender: TObject);
+    procedure BtnAddDir2Click(Sender: TObject);
+    procedure BtnOKExitClick(Sender: TObject);
+    procedure BtnExitClick(Sender: TObject);
+    procedure BtnRedMainClick(Sender: TObject);
+    procedure BtnRedRegPostClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure BtnRedOPSClick(Sender: TObject);
+    procedure BitBtn2Click(Sender: TObject);
+  private
+    { Private declarations }
+    function TrueParam: boolean;
+    function ApplicationPath: string;
+    function ChooseFolder(Title: string; path: string): boolean;
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.BtnExitClick(Sender: TObject);
+begin
+  PanelStart.Visible:= true;
+  PanelOPS.Visible:= false;
+  PanelMain.Visible:= false;
+  PanelRegpost.Visible:= false;
+
+  Label25.Caption:= 'Вы уверенны...';
+  BtnOKExit.Visible:= true;
+end;
+
+procedure TForm1.BtnOKExitClick(Sender: TObject);
+begin
+ Close;
+end;
+
+procedure TForm1.BtnRedMainClick(Sender: TObject);
+begin
+  PanelStart.Visible:= false;
+  PanelOPS.Visible:= false;
+  PanelMain.Visible:= true;
+  PanelRegpost.Visible:= false;
+  BtnOKExit.Visible:= false;
+end;
+
+procedure TForm1.BtnRedOPSClick(Sender: TObject);
+var ini: TIniFile;
+begin
+  PanelStart.Visible:= false;
+  PanelOPS.Visible:= true;
+  PanelMain.Visible:= false;
+  PanelRegpost.Visible:= false;
+  BtnOKExit.Visible:= false;
+end;
+
+procedure TForm1.BtnRedRegPostClick(Sender: TObject);
+begin
+  PanelStart.Visible:= false;
+  PanelOPS.Visible:= false;
+  PanelMain.Visible:= false;
+  PanelRegpost.Visible:= true;
+  BtnOKExit.Visible:= false;
+end;
+
+
+procedure TForm1.BtnAddDir2Click(Sender: TObject);
+begin
+  if OpenDialog1.Execute then begin
+    Edit_PathFileIdentif.Text:= OpenDialog1.FileName;
+  end;
+end;
+
+procedure TForm1.BtnAddDir3Click(Sender: TObject);
+begin
+  ChooseFolder('укажите каталог Winpost',EditPathWinpost.Text);
+end;
+
+procedure TForm1.BitBtn2Click(Sender: TObject);
+begin
+ Close;
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  PanelStart.Visible:= true;
+  PanelOPS.Visible:= false;
+  PanelMain.Visible:= false;
+  PanelRegpost.Visible:= false;
+  BtnOKExit.Visible:= false;
+  MaskEditDataEndRegpost.Text:= DateToStr(Date);
+  MaskEditDataEndOPS.Text:= DateToStr(Date);
+end;
+
+function TForm1.TrueParam: boolean;
+begin
+ Result:= true;
+
+ if MaskEdit_DataStart.Text = '' then Result:= false else
+ if MaskEditDataEndOPS.Text = '' then Result:= false else
+ if MaskEdit_IndexOPS.Text = '' then Result:= false else
+ if Edit_NameOPS.Text = '' then Result:= false else
+ if Edit_PathFileIdentif.Text = '' then Result:= false else
+end;
+
+function TForm1.ApplicationPath: string;
+begin
+  Result := ExtractFilePath(ParamStr(0));
+end;
+
+function TForm1.ChooseFolder(Title: string; path: string): boolean;
+var
+     bi: TBrowseInfo;
+     lpItemID: PItemIDList;
+begin
+  Result:= false;
+	ZeroMemory(@bi, sizeof(BROWSEINFO));
+	bi.hwndOwner:= Form1.Handle;
+	bi.pszDisplayName:= PChar(path);
+	bi.lpszTitle:= PChar(Title);
+	bi.ulFlags:= BIF_RETURNONLYFSDIRS or BIF_DONTGOBELOWDOMAIN;
+	lpItemID:= SHBrowseForFolder(&bi);
+	if (lpItemID <> nil) then
+		if (SHGetPathFromIDList(lpItemID, PChar(Path))) then begin
+      GlobalFreePtr(lpItemID);
+			Result:= true;
+    end;
+end;
+
+{
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  TitleName: string;
+  lpItemID: PItemIDList;
+  BrowseInfo: TBrowseInfo;
+  DisplayName: array[0..MAX_PATH] of char;
+  TempPath: array[0..MAX_PATH] of char;
+begin
+  FillChar(BrowseInfo, sizeof(TBrowseInfo), #0);
+  BrowseInfo.hwndOwner := Form1.Handle;
+  BrowseInfo.pszDisplayName := @DisplayName;
+  TitleName := 'Please specify a directory';
+  BrowseInfo.lpszTitle := PChar(TitleName);
+  BrowseInfo.ulFlags := BIF_RETURNONLYFSDIRS;
+  lpItemID := SHBrowseForFolder(BrowseInfo);
+  if lpItemId <> nil then
+  begin
+    SHGetPathFromIDList(lpItemID, TempPath);
+    ShowMessage(TempPath);
+    GlobalFreePtr(lpItemID);
+  end;
+end;
+
+}
+end.

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2007.12.05 15:45:02.937.pas,D:\AngelWork\Мои документы\Borland Studio Projects\Unit1.pas=D:\AngelWork\ProjectDelphi\Flehka\SetupIni\UnitMain.pas</Transaction>
+    <Transaction>2007.12.05 15:45:02.937.dfm,D:\AngelWork\Мои документы\Borland Studio Projects\Unit1.dfm=D:\AngelWork\ProjectDelphi\Flehka\SetupIni\UnitMain.dfm</Transaction>
+    <Transaction>2007.12.05 15:45:27.062.bdsproj,D:\AngelWork\Мои документы\Borland Studio Projects\Project1.bdsproj=D:\AngelWork\ProjectDelphi\Flehka\SetupIni\SetupINI.bdsproj</Transaction>
+    <Transaction>2007.12.05 16:50:23.343.pas,D:\AngelWork\ProjectDelphi\Flehka\SetupIni\Unit2.pas=D:\AngelWork\ProjectDelphi\Flehka\SetupIni\UnitOPS.pas</Transaction>
+    <Transaction>2007.12.05 16:50:23.343.dfm,D:\AngelWork\ProjectDelphi\Flehka\SetupIni\Unit2.dfm=D:\AngelWork\ProjectDelphi\Flehka\SetupIni\UnitOPS.dfm</Transaction>
+    <Transaction>2007.12.05 19:29:49.484.pas,D:\AngelWork\ProjectDelphi\Flehka\SetupIni\UnitOPS.pas=D:\AngelWork\ProjectDelphi\Flehka\SetupIni\UnitDir.pas</Transaction>
+    <Transaction>2007.12.05 19:29:49.484.dfm,D:\AngelWork\ProjectDelphi\Flehka\SetupIni\UnitOPS.dfm=D:\AngelWork\ProjectDelphi\Flehka\SetupIni\UnitDir.dfm</Transaction>
+    <Transaction>2007.12.05 21:55:10.656.pas,D:\AngelWork\ProjectDelphi\Flehka\SetupIni\UnitDir.pas=</Transaction>
+    <Transaction>2007.12.05 21:55:10.656.dfm,D:\AngelWork\ProjectDelphi\Flehka\SetupIni\UnitDir.dfm=</Transaction>
+  </Transactions>
+</BorlandProject>

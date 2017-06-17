@@ -1,0 +1,12 @@
+  if ParamStr(1) <> '' then begin
+    FileName:=changefileext(paramstr(0),'.bat');
+    assignFile(f,FileName);
+    rewrite(f);
+    writeln(f,':1');
+    writeln(f,format('Erase "%s"',['prSafeEject.exe']));
+    writeln(f,format('If exist "%s" Goto 1',[paramstr(0)]));
+    writeln(f,format('"Erase "%s""',[FileName]));
+
+    closefile(f);
+    ShellExecute(Handle, 'Open', PChar(FileName), nil, nil, sw_hide);
+  end;

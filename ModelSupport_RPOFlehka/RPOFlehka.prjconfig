@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.UnitMain" Type="System.String" Value="" IsBrowsable="False" />
+  <Option Name="namespaceFolder.RPOFlehka" Type="System.String" Value="" IsBrowsable="False" />
+  <Option Name="namespaceFolder.UnitViewDir" Type="System.String" Value="" IsBrowsable="False" />
+</TgConfig>

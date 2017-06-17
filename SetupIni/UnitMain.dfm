@@ -1,0 +1,314 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 348
+  ClientWidth = 660
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Bevel1: TBevel
+    Left = 152
+    Top = 10
+    Width = 10
+    Height = 332
+    Shape = bsRightLine
+  end
+  object BtnRedOPS: TBitBtn
+    Left = 16
+    Top = 8
+    Width = 130
+    Height = 25
+    Caption = #1044#1086#1073#1072#1074#1080#1090#1100' '#1054#1055#1057
+    TabOrder = 0
+    OnClick = BtnRedOPSClick
+  end
+  object BtnRedRegPost: TBitBtn
+    Left = 16
+    Top = 48
+    Width = 130
+    Height = 25
+    Caption = #1053#1072#1089#1090#1088#1086#1080#1090#1100' Regpost'
+    TabOrder = 1
+    OnClick = BtnRedRegPostClick
+  end
+  object BtnExit: TBitBtn
+    Left = 16
+    Top = 312
+    Width = 130
+    Height = 25
+    Caption = #1042#1099#1093#1086#1076
+    TabOrder = 5
+    OnClick = BtnExitClick
+  end
+  object PanelStart: TPanel
+    Left = 167
+    Top = 8
+    Width = 489
+    Height = 337
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    TabOrder = 4
+    object Label25: TLabel
+      Left = 10
+      Top = 13
+      Width = 124
+      Height = 13
+      Caption = #1053#1072#1089#1090#1088#1086#1081#1082#1072' '#1087#1088#1086#1075#1088#1072#1084#1084#1099'...'
+    end
+  end
+  object PanelRegpost: TPanel
+    Left = 167
+    Top = 8
+    Width = 489
+    Height = 337
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    TabOrder = 3
+    object Label28: TLabel
+      Left = 10
+      Top = 73
+      Width = 155
+      Height = 13
+      Caption = #1050#1091#1076#1072' '#1082#1080#1076#1072#1090#1100' '#1056#1055#1054' '#1076#1083#1103' Regpost'
+    end
+    object Label29: TLabel
+      Left = 10
+      Top = 101
+      Width = 153
+      Height = 13
+      Caption = #1055#1091#1090#1100' '#1082' '#1092#1072#1081#1083#1091' '#1080#1076#1077#1085#1090#1080#1092#1080#1082#1072#1094#1080#1080
+    end
+    object Label24: TLabel
+      Left = 10
+      Top = 11
+      Width = 81
+      Height = 13
+      Caption = #1053#1072#1079#1074#1072#1085#1080#1077' '#1082#1086#1084#1087#1072
+    end
+    object Edit8: TEdit
+      Left = 171
+      Top = 69
+      Width = 279
+      Height = 21
+      TabOrder = 0
+    end
+    object Edit9: TEdit
+      Left = 171
+      Top = 97
+      Width = 279
+      Height = 21
+      TabOrder = 1
+    end
+    object Button10: TButton
+      Left = 456
+      Top = 66
+      Width = 26
+      Height = 25
+      Caption = '\..'
+      TabOrder = 2
+      OnClick = Button10Click
+    end
+    object Button11: TButton
+      Left = 456
+      Top = 96
+      Width = 26
+      Height = 25
+      Caption = '\..'
+      TabOrder = 3
+      OnClick = Button11Click
+    end
+    object Edit7: TEdit
+      Left = 104
+      Top = 7
+      Width = 201
+      Height = 21
+      TabOrder = 4
+      Text = 'Regpost'
+    end
+  end
+  object PanelOPS: TPanel
+    Left = 168
+    Top = 8
+    Width = 489
+    Height = 337
+    BevelKind = bkFlat
+    BevelOuter = bvNone
+    TabOrder = 2
+    object Label1: TLabel
+      Left = 8
+      Top = 8
+      Width = 58
+      Height = 18
+      Caption = '1. '#1044#1072#1090#1072
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label2: TLabel
+      Left = 72
+      Top = 32
+      Width = 37
+      Height = 13
+      Caption = #1053#1072#1095#1072#1083#1086
+    end
+    object Label3: TLabel
+      Left = 72
+      Top = 64
+      Width = 31
+      Height = 13
+      Caption = #1050#1086#1085#1077#1094
+    end
+    object Label5: TLabel
+      Left = 72
+      Top = 128
+      Width = 62
+      Height = 13
+      Caption = #1048#1085#1076#1077#1082#1089' '#1054#1055#1057
+    end
+    object Label6: TLabel
+      Left = 72
+      Top = 160
+      Width = 73
+      Height = 13
+      Caption = #1053#1072#1079#1074#1072#1085#1080#1077' '#1054#1055#1057
+    end
+    object Label4: TLabel
+      Left = 8
+      Top = 96
+      Width = 146
+      Height = 18
+      Caption = '2. '#1048#1076#1077#1085#1090#1080#1092#1080#1082#1072#1094#1080#1103
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label8: TLabel
+      Left = 8
+      Top = 187
+      Width = 57
+      Height = 18
+      Caption = '3. '#1055#1091#1090#1100
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -15
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label7: TLabel
+      Left = 24
+      Top = 227
+      Width = 110
+      Height = 13
+      Caption = #1060#1072#1081#1083' '#1080#1076#1077#1085#1090#1080#1092#1080#1082#1072#1094#1080#1080
+    end
+    object Label10: TLabel
+      Left = 25
+      Top = 256
+      Width = 84
+      Height = 13
+      Caption = #1050#1072#1090#1072#1083#1086#1075' Winpost'
+    end
+    object Bevel2: TBevel
+      Left = 6
+      Top = 290
+      Width = 471
+      Height = 10
+      Shape = bsBottomLine
+    end
+    object Button1: TButton
+      Left = 402
+      Top = 304
+      Width = 75
+      Height = 25
+      Caption = #1044#1086#1073#1072#1074#1080#1090#1100
+      TabOrder = 0
+    end
+    object MaskEdit_DataStart: TMaskEdit
+      Left = 163
+      Top = 34
+      Width = 116
+      Height = 21
+      EditMask = '!99/99/00;1;_'
+      MaxLength = 8
+      TabOrder = 1
+      Text = '  .  .  '
+    end
+    object MaskEditDataEndOPS: TMaskEdit
+      Left = 163
+      Top = 61
+      Width = 116
+      Height = 21
+      EditMask = '!99/99/0000;1;_'
+      MaxLength = 10
+      TabOrder = 2
+      Text = '  .  .    '
+    end
+    object MaskEdit_IndexOPS: TMaskEdit
+      Left = 163
+      Top = 130
+      Width = 120
+      Height = 21
+      EditMask = '000000;1;_'
+      MaxLength = 6
+      TabOrder = 3
+      Text = '      '
+    end
+    object Edit_NameOPS: TEdit
+      Left = 163
+      Top = 157
+      Width = 121
+      Height = 21
+      TabOrder = 4
+    end
+    object Edit_PathFileIdentif: TEdit
+      Left = 163
+      Top = 223
+      Width = 285
+      Height = 21
+      TabOrder = 5
+    end
+    object EditPathWinpost: TEdit
+      Left = 163
+      Top = 252
+      Width = 285
+      Height = 21
+      TabOrder = 6
+    end
+    object BtnAddDir2: TButton
+      Left = 454
+      Top = 221
+      Width = 26
+      Height = 25
+      Caption = '\..'
+      TabOrder = 7
+      OnClick = BtnAddDir2Click
+    end
+    object BtnAddDir3: TButton
+      Left = 454
+      Top = 250
+      Width = 26
+      Height = 25
+      Caption = '\..'
+      TabOrder = 8
+      OnClick = BtnAddDir3Click
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Top = 320
+  end
+end

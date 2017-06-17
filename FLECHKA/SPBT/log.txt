@@ -1,0 +1,241 @@
+----Дата: 19.12.2007  Время: 23:58:14-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 19.12.2007
+*Текущее время: 23:57:25
+!Копирование на флешку
+!Файл: c:\Elpwin\pkt\trfd.dbf
+!Файл: c:\Elpwin\pkt\trfg.dbf
+!Файл: c:\Elpwin\pkt\trft.dbf
+!Файл: c:\Elpwin\pkt\const.dbf
+!Файл: c:\Elpwin\pkt\fkl.dbf
+!Файл: c:\Elpwin\pkt\lkl.dbf
+!Файл: c:\Elpwin\pkt\tarif.dbf
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:10:27-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:10:25
+!Копирование на флешку
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:10:53-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:10:38
+!Копирование на флешку
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:19:09-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:18:55
+!Копирование на флешку
+!Файл: c:\Elpwin\pkt\trfd.dbf
+!Файл: c:\Elpwin\pkt\trfg.dbf
+!Файл: c:\Elpwin\pkt\trft.dbf
+!Файл: c:\Elpwin\pkt\const.dbf
+!Файл: c:\Elpwin\pkt\fkl.dbf
+!Файл: c:\Elpwin\pkt\lkl.dbf
+!Файл: c:\Elpwin\pkt\tarif.dbf
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:19:23-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:19:18
+!Копирование на флешку
+!Файл: c:\Elpwin\pkt\trfd.dbf
+!Файл: c:\Elpwin\pkt\trfg.dbf
+!Файл: c:\Elpwin\pkt\trft.dbf
+!Файл: c:\Elpwin\pkt\const.dbf
+!Файл: c:\Elpwin\pkt\fkl.dbf
+!Файл: c:\Elpwin\pkt\lkl.dbf
+!Файл: c:\Elpwin\pkt\tarif.dbf
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:19:48-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:19:42
+!Копирование на флешку
+!Файл: c:\Elpwin\pkt\trfd.dbf
+!Файл: c:\Elpwin\pkt\trfg.dbf
+!Файл: c:\Elpwin\pkt\trft.dbf
+!Файл: c:\Elpwin\pkt\const.dbf
+!Файл: c:\Elpwin\pkt\fkl.dbf
+!Файл: c:\Elpwin\pkt\lkl.dbf
+!Файл: c:\Elpwin\pkt\tarif.dbf
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:20:10-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:20:07
+!Копирование на флешку
+!Файл СКОПИРОВАН: c:\Elpwin\pkt\trfd.dbf
+!Файл СКОПИРОВАН: c:\Elpwin\pkt\trfg.dbf
+!Файл СКОПИРОВАН: c:\Elpwin\pkt\trft.dbf
+!Файл СКОПИРОВАН: c:\Elpwin\pkt\const.dbf
+!Файл СКОПИРОВАН: c:\Elpwin\pkt\fkl.dbf
+!Файл СКОПИРОВАН: c:\Elpwin\pkt\lkl.dbf
+!Файл СКОПИРОВАН: c:\Elpwin\pkt\tarif.dbf
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:21:55-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:21:35
+!Копирование на флешку
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\trfd.dbf
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\trfg.dbf
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\trft.dbf
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\const.dbf
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\fkl.dbf
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\lkl.dbf
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\tarif.dbf
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:24:13-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:24:10
+!Копирование на флешку
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\trfd.dbf
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\trfg.dbf
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\trft.dbf
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\const.dbf
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\fkl.dbf
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\lkl.dbf
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\tarif.dbf
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:26:10-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:26:00
+!Копирование на флешку
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\trfd.dbf    В     D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\trfg.dbf    В     D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\trft.dbf    В     D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\const.dbf    В     D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\fkl.dbf    В     D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\lkl.dbf    В     D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT
+!СКОПИРОВАН Файл: c:\Elpwin\pkt\tarif.dbf    В     D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:27:02-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:26:45
+!Копирование на флешку
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trfd.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trfg.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trft.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\const.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\fkl.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\lkl.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\tarif.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:27:09-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:27:07
+!Копирование на флешку
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trfd.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trfg.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trft.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\const.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\fkl.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\lkl.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\tarif.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:27:35-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:27:21
+!Копирование на флешку
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trfd.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trfg.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trft.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\const.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\fkl.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\lkl.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\tarif.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:32:15-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:31:23
+!Копирование на флешку
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trfd.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trfg.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trft.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\const.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\fkl.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\lkl.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\tarif.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------
+----Дата: 20.12.2007  Время: 0:34:29-----------------------------------------------
+! - Идентификация
+! - Выполнение действий
+*Компутер: SPBT
+*Текущая дата: 20.12.2007
+*Текущее время: 0:34:26
+!Копирование на флешку
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trfd.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trfg.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\trft.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\const.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\fkl.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\lkl.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!СКОПИРОВАН Файл: "c:\Elpwin\pkt\tarif.dbf"    В     "D:\AngelWork\ProjectDelphi\Flehka\FLECHKA\SPBT"
+!Копирование завершено
+! - Завершение работы
+-----------------------------------------------------

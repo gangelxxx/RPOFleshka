@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet>
+  <view uin="zufai2wop1pyixf_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:RPOFlehka:UnitMain.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,145,169" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.cRegpost" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.cNo" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.FormMain" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TrueFunc" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.FalseFunc" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.cWinpost" />
+      <reference referencedUin="delphi:l_ast:src:RPOFlehka:UnitMain.FormMain">
+        <property name="sourceAnchor" value="155,94" />
+        <property name="targetAnchor" value="389,93" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:RPOFlehka:UnitMain.RInfo">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="174,1,196,289" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.Gibrid" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.F" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.DateStart" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.DateEnd" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.FileExportRPO" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.PathWinpost" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.IndexOPS" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.Export_folder" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.Export_folder_Archiv" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.PathRegpost" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.PathFlehka" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.FailIfentif" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.NameComputer" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.RInfo.PathOPStoFlesh" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:RPOFlehka:UnitMain.TFormMain">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="389,1,197,910" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.ClearItems()" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.LogFiles(System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.ExportRPO(Controls.TDate,UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.EditExportIni(Controls.TDate,System.Boolean,UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.ExportFullRPO(UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.ImportRegpost(UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.EmptyFolderRPO(System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.CopyToRegpost(System.String,System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.CopyGibridDisk(UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.NextDay()" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.SetCalendar(Controls.TDate)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.NullRPO(System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.CountStrRPO(System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.DateRPO(System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.SearchRPOtoDate(Controls.TDate,UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.SearchRPOtoIndex(System.Int32,UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.FileRPO(System.String,System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.CopyAllFiles(System.String,System.String,System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.DeleAllFiles(System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.DeleNULLRPOFiles(System.String,System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.EmptyFolder(System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.ExixstsFailUsesProg(UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.MainInfo(ref@UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.LoadINI(System.String,ref@UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.SaveINI(UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.CreateSpisRPO(Controls.TDate,Controls.TDate,System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.ExixstsComp(ref@UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.WinpostCall(UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.RegpostCall(UnitMain.RInfo)" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.ListBox1" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.QProgressBar1" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.TimerExportRPO" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.Calendar1" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.TimerAppRun" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.FormDestroy(System.Object)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.TimerAppRunTimer(System.Object)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.FormCreate(System.Object)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.TimerExportRPOTimer(System.Object)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.ListBox1MeasureItem(Controls.TWinControl,System.Int32,ref@System.Int32)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.ListBox1DrawItem(Controls.TWinControl,System.Int32,Windows.TRect,ComCtrls.$$)" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.QPSnak1" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.Bit" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.Bit0" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.Bit1" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.Bit2" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.Bit3" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.Bit4" />
+      <reference referencedUin="delphi:e_field:src:RPOFlehka:UnitMain.TFormMain.ItemIndex" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.OkItems(System.Int32)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.OkItems(System.String,System.Int32,System.UInt16,System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.OkItems()" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.ClockItems(System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.ErrorItems(System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.InfoItems(System.String)" />
+      <reference referencedUin="delphi:e_method:src:RPOFlehka:UnitMain.TFormMain.PunktItems(System.String)" />
+    </reference>
+  </view>
+</nodeSet>
